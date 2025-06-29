@@ -12,6 +12,7 @@ function App() {
 
 
   const addValue = () =>{
+    // Interview
       setCounter(prevCounter => prevCounter + 1 ) // In React fibre when you want to update 
       setCounter(prevCounter => prevCounter + 1 ) // prevCounter give me existing state because in setCounter has callback hidden features so here i am calling call back because he has last updated state 
       setCounter(prevCounter => prevCounter + 1 ) // Because this is not a bunch of update 
@@ -31,7 +32,7 @@ function App() {
 
   const decreaseValue = () => {
 
-    counter = counter -1
+    counter = counter -1 // decrease the value on button clicked
     if(counter >= 0 ){
       setCounter(counter)
     }
